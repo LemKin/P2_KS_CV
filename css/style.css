@@ -59,15 +59,13 @@
     justify-content: flex-start;
 }
 
-.titre
-{
+.titre{
 	color: #8BC34A;
     font-weight: normal;
     margin-left: 6.8cm;
 }
 
-.separator
-{
+.separator{
 	height: 2px;
 	margin-left: 0cm;
 	margin-top: -10px;
@@ -76,40 +74,34 @@
 	background-color: #8BC34A;
 }
   
-.separator--1
-{
+.separator--1{
 	width: 7%;
     margin-top: -10px;
-    margin-left: -246px;
+    margin-left: -259px;
 }
   
-.separator--2
-{
+.separator--2{
 	width: auto;
     margin-top: -20px;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.bloc
-{
+.bloc{
 	display: flex;
 	justify-content: space-between;
 }
 
-.bloc-1
-{
+.bloc-1{
 	flex: 1;
 }
 
-.bloc-2
-{
+.bloc-2{
     flex: 10;
     margin-left: -25px;
 }
 
-.bloc-3
-{
+.bloc-3{
     flex: 40;
     margin-right: 40px;
 }
@@ -120,8 +112,7 @@
 	justify-content: flex-start;
 }
 
-.bloc_H-2
-{
+.bloc_H-2{
     margin-left: 90px;
 }
 
@@ -140,45 +131,39 @@
 
 /* CORPS DE TEXTE */
 
-body
-{
+body{
 	font-family: "Helvetica", Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300;
 }
 
-h1
-{
+h1{
     margin-top: 60px;
     margin-left: 45px;
 	font-weight: lighter;
 	font-size: 2.5em;
 }
 
-h3
-{
+h3{
     font-weight: normal;
 	color:  #8BC34A;
     text-align: center;
     margin-top: 4px;
 }
 
-h4
-{
+h4{
     font-size: 1.2em;
     margin-left: 40px;
     margin-top: 50px;
 }
 
-h5
-{
+h5{
 	color: grey;
     margin-top: -35px;
     margin-left: 303px;
-	font-size: 1.2em;
+	font-size: 1.25em;
 }
 
-p
-{
+p{
 	color: #424242;
 	font-size: 0.7em;
     margin-left: 30px;
@@ -186,21 +171,18 @@ p
 	text-align: justify;
 }
 
-ul
-{
+ul{
 	color: #424242;
 	font-size: 0.7em;
 	text-align: justify;
 	list-style-type: none;
 }
 
-li
-{
+li{
 	line-height: 13px;
 }
 
-a
-{
+a{
 	color: #546E7A;
 	font-weight: normal;
 }
@@ -261,6 +243,9 @@ a
     margin-left: -258px;
     }
 
+    .separator--1{
+    }
+
 }
 
 
@@ -289,9 +274,13 @@ a
     }
 
     .bloc-2{
-        flex: 50;
+        flex: 12;
     }
 
     .bloc-3{
+        flex: 40;
+    }
+
+    .separator--1{
     }
 }
