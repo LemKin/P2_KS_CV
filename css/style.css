@@ -1,8 +1,7 @@
-#page{
+main{
     display: flex;
 	flex-wrap: wrap;
-	width: 21cm;
-	height: 29.7cm;
+    width: 80%;
     margin: auto;
     background-color: #fff;
     box-shadow: 0px 0px 10px #777;
@@ -10,9 +9,9 @@
 
 .gauche{
     position: absolute;
+    width: 25%;
+    max-width: 400px;
     background-color: rgb(139,195,74);
-    width: 6.8cm;
-    height: 29.7cm;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -27,40 +26,38 @@
     height: 140px;
     box-shadow: 0px 0px 10px #777;
     border-radius: 50%;
+    border: solid rgb(85,139,47);
     margin-top: 50px;
 }
 
-.contact{
+.contact, .propos, .loisirs{
     background-color: #2E7D32;
-    width: 6.8cm;
+    width: 100%;
     height: 30px;
-    margin-top: 20px;
+}
+
+.contact{
+    margin-top: 10%;
 }
 
 .propos{
-    background-color: #2E7D32;
-    width: 6.8cm;
-    height: 30px;
-    margin-top: 230px;
+    margin-top: 80%;
 }
 
 .loisirs{
-    background-color: #2E7D32;
-    width: 6.8cm;
-    height: 30px;
-    margin-top: 495px;
+    margin-top: 150%;
 }
 
 .droite{
-    margin-left: 6.8cm;
-    width: 14.2cm;
+    margin-left: 30%;
+    width: 75%;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .titre{
-    background: url('img/separator.png') repeat-x bottom;
 	color: rgb(139,195,74);
     font-weight: normal;
     margin-left: 6.8cm;
@@ -122,6 +119,12 @@
     font-size: 1.5em;
     display: flex;
     justify-content: space-around;
+}
+
+.fa-dice-d20, .fa-dumbbell, .fa-leaf{
+    border: solid #2E7D32;
+    border-radius: 50%;
+    padding: 0.3em;
 }
 
 .icone_pro{
