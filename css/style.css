@@ -10,7 +10,7 @@
 
 .gauche{
     position: absolute;
-    background-color: #8BC34A;
+    background-color: rgb(139,195,74);
     width: 6.8cm;
     height: 29.7cm;
     display: flex;
@@ -60,7 +60,8 @@
 }
 
 .titre{
-	color: #8BC34A;
+    background: url('img/separator.png') repeat-x bottom;
+	color: rgb(139,195,74);
     font-weight: normal;
     margin-left: 6.8cm;
 }
@@ -71,7 +72,7 @@
 	margin-top: -10px;
 	border: none;
 	box-shadow: none;
-	background-color: #8BC34A;
+	background-color: rgb(139,195,74);
 }
   
 .separator--1{
@@ -124,7 +125,7 @@
 }
 
 .icone_pro{
-    color: #8BC34A;
+    color: rgb(139,195,74);
     font-size: 1.2em;
 }
 
@@ -145,7 +146,7 @@ h1{
 
 h3{
     font-weight: normal;
-	color:  #8BC34A;
+	color:  rgb(139,195,74);
     text-align: center;
     margin-top: 4px;
 }
@@ -160,7 +161,7 @@ h5{
 	color: grey;
     margin-top: -35px;
     margin-left: 303px;
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 p{
