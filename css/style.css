@@ -7,8 +7,59 @@ main{
     box-shadow: 0px 0px 10px #777;
 }
 
+/* HEADER */
+
+header{
+    display: flex;
+    z-index: 1;
+    margin-top: 2em;
+}
+
+.photo img{
+    width: 140px;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    border: solid rgb(85,139,47);
+    margin-left: 50%;
+}
+
+.nom{
+    line-height: 0.1em;
+    margin-left: 15em;
+}
+
+.titre{
+	color: rgb(139,195,74);
+    font-weight: normal;
+}
+
+/* SEPARATOR */
+
+.separator{
+	height: 2px;
+	margin-left: ;
+	margin-top: ;
+	border: none;
+	box-shadow: none;
+	background-color: rgb(139,195,74);
+}
+  
+.separator--1{
+    width: 23%;
+    margin-top: -8%;
+}
+  
+.separator--2{
+	width: auto;
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* SECTION GAUCHE */
+
 .gauche{
-    position: absolute;
+    position: fixed;
     width: 25%;
     max-width: 400px;
     background-color: rgb(139,195,74);
@@ -17,17 +68,6 @@ main{
     justify-content: flex-start;
 }
 
-.photo{
-    text-align: center;
-}
-
-.photo img{
-    width: 140px;
-    box-shadow: 0px 0px 10px #777;
-    border-radius: 50%;
-    border: solid rgb(85,139,47);
-    margin-top: 50px;
-}
 
 .contact, .propos, .loisirs{
     background-color: #2E7D32;
@@ -36,16 +76,41 @@ main{
 }
 
 .contact{
-    margin-top: 10%;
+    margin-top: 70%;
 }
 
 .propos{
-    margin-top: 80%;
+    margin-top: 60%;
 }
 
 .loisirs{
-    margin-top: 150%;
+    margin-top: 100%;
 }
+
+.icone_loisirs{
+    color: #2E7D32;
+    font-size: 1.7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-dice-d20, .fa-dumbbell, .fa-leaf{
+    border: 0.1em solid #2E7D32;
+    border-radius: 50%;
+    padding: 0.4em;
+}
+
+.icone_pro{
+    color: rgb(139,195,74);
+    font-size: 1.2em;
+}
+
+.clic{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* SECTION DROITE */
 
 .droite{
     margin-left: 30%;
@@ -54,34 +119,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.titre{
-	color: rgb(139,195,74);
-    font-weight: normal;
-    margin-left: 6.8cm;
-}
-
-.separator{
-	height: 2px;
-	margin-left: 0cm;
-	margin-top: -10px;
-	border: none;
-	box-shadow: none;
-	background-color: rgb(139,195,74);
-}
-  
-.separator--1{
-	width: 7%;
-    margin-top: -10px;
-    margin-left: -259px;
-}
-  
-.separator--2{
-	width: auto;
-    margin-top: -20px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .bloc{
@@ -113,29 +150,6 @@ main{
     margin-left: 90px;
 }
 
-.icone_loisirs{
-    color: #2E7D32;
-    font-size: 1.7em;
-    display: flex;
-    justify-content: space-around;
-}
-
-.fa-dice-d20, .fa-dumbbell, .fa-leaf{
-    border: 0.1em solid #2E7D32;
-    border-radius: 50%;
-    padding: 0.4em;
-}
-
-.icone_pro{
-    color: rgb(139,195,74);
-    font-size: 1.2em;
-}
-
-.clic{
-    text-decoration: none;
-    color: #424242;
-}
-
 /* CORPS DE TEXTE */
 
 body{
@@ -144,10 +158,10 @@ body{
 }
 
 h1{
-    margin-top: 60px;
-    margin-left: 45px;
+
 	font-weight: lighter;
-	font-size: 2.5em;
+    font-size: 2.5em;
+    margin-top: 20%;
 }
 
 h3{
@@ -167,8 +181,6 @@ h4{
 
 h5{
 	color: grey;
-    margin-top: -35px;
-    margin-left: 303px;
     font-size: 1.25em;
 }
 
@@ -288,8 +300,5 @@ a{
 
     .bloc-3{
         flex: 40;
-    }
-
-    .separator--1{
     }
 }
