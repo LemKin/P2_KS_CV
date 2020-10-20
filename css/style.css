@@ -62,6 +62,14 @@ section{
     padding: 1em;
 }
 
+.spacer{
+    flex-grow: 1;
+}
+
+.loisir{
+    margin-bottom: 10%;
+}
+
 .icone_loisirs{
     color: #2E7D32;
     font-size: 1.7em;
